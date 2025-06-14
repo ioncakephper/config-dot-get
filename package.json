@@ -1,0 +1,15 @@
+{
+  "name": "config-dot-get",
+  "version": "1.0.0",
+  "description": "A simple JSON configuration reader with dot notation support.",
+  "main": "config-reader.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["json", "config", "dot-notation", "settings", "reader"],
+  "author": "Ion",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
