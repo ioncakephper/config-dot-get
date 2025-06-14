@@ -1,6 +1,6 @@
 {
   "name": "config-dot-get",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple JSON configuration reader with dot notation support",
   "main": "index.js",
   "scripts": {
