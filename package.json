@@ -25,5 +25,9 @@
   "homepage": "https://github.com/ioncakephper/config-dot-get",
   "devDependencies": {
     "jest": "^29.0.0"
+  },
+  "dependencies": {
+    "lockfile": "^1.0.4",
+    "proper-lockfile": "^4.1.2"
   }
 }
