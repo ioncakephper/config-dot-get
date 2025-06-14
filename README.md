@@ -80,6 +80,37 @@ console.log(config.get("feature.enable", false)); // Returns default (false)
 console.log(config.get("database.port")); // Example output: 5432
 ```
 
+## 🏆 Best Practices
+
+1. **Use default values**: Always provide a default value when retrieving configuration settings to avoid unexpected `undefined` values.
+
+   ```js
+   const port = config.get("server.port", 3000);
+   ```
+
+2. **Keep configuration organized**: Structure JSON files logically to prevent deep nesting that may be difficult to maintain.
+3. **Validate input**: Ensure the retrieved values match expected data types to prevent runtime issues.
+
+   ```js
+   const logLevel = config.get("logging.level", "info");
+   if (typeof logLevel !== "string") {
+    throw new Error("Invalid log level type");
+   }
+   ```
+
+4. **Avoid hardcoding paths**: Store key paths in constants for better maintainability.
+
+   ```js
+   const SERVER_PORT = "server.port";
+   const port = config.get(SERVER_PORT, 3000);
+   ```
+
+5. **Use `.set()` responsibly**: Modify configuration settings only when necessary to prevent unintended overrides.
+
+   ```js
+   config.set("feature.enabled", true);
+   ```
+
 ## 🛠 License
 
 This package is licensed under MIT License.
