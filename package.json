@@ -9,6 +9,14 @@
   "keywords": ["json", "config", "dot-notation", "settings", "reader"],
   "author": "Ion",
   "license": "MIT",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/ioncakephper/config-dot-get"
+},
+"bugs": {
+  "url": "https://github.com/ioncakephper/config-dot-get/issues"
+},
+"homepage": "https://github.com/ioncakephper/config-dot-get"
   "devDependencies": {
     "jest": "^29.0.0"
   }
