@@ -5,7 +5,6 @@
 ![GitHub issues](https://img.shields.io/github/issues/ioncakephper/config-dot-get)
 ![GitHub stars](https://img.shields.io/github/stars/ioncakephper/config-dot-get?style=social)
 
-
 **config-dot-get** is a lightweight JSON configuration reader that allows developers to retrieve and modify settings using **dot notation**. It efficiently handles nested configuration values.
 
 ## 🚀 Installation
