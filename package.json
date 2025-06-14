@@ -1,22 +1,28 @@
 {
   "name": "config-dot-get",
   "version": "1.0.0",
-  "description": "A simple JSON configuration reader with dot notation support.",
-  "main": "config-reader.js",
+  "description": "A simple JSON configuration reader with dot notation support",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "keywords": ["json", "config", "dot-notation", "settings", "reader"],
+  "keywords": [
+    "json",
+    "config",
+    "dot-notation",
+    "settings",
+    "reader"
+  ],
   "author": "Ion",
   "license": "MIT",
   "repository": {
-  "type": "git",
-  "url": "https://github.com/ioncakephper/config-dot-get"
-},
-"bugs": {
-  "url": "https://github.com/ioncakephper/config-dot-get/issues"
-},
-"homepage": "https://github.com/ioncakephper/config-dot-get"
+    "type": "git",
+    "url": "https://github.com/ioncakephper/config-dot-get"
+  },
+  "bugs": {
+    "url": "https://github.com/ioncakephper/config-dot-get/issues"
+  },
+  "homepage": "https://github.com/ioncakephper/config-dot-get",
   "devDependencies": {
     "jest": "^29.0.0"
   }
